@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.box {
+    width: 280px;
+    height: 400px;
+    padding: 0 23px;
+    padding-top: 30px;
+    background: #525A5A;
+}
+
+.box p {
+    font-size: 12px;
+    color: white;
+}
+
+.box h2 {
+    padding-bottom: 22px;
+    color: white;
+}
+
+.box .div1 {
+    color: white;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+    margin-bottom: 7px;
+}
+
+.box .p {
+    margin-bottom: 7px;
+}
+
+.box .inp {
+    position: relative;
+    margin-bottom: 12px;
+    width: 282px;
+    background: white;
+}
+
+.box .inp input {
+    border: none;
+    border-right: 1px solid #F0F0F0;
+    width: 228px;
+    height: 44px;
+    padding-left: 10px;
+}
+
+.box .inp .sp {
+    float: right;
+    margin-right: 16px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.box .inp:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.box .btn {
+    width: 282px;
+    border: none;
+    color: white;
+    padding: 13px 0;
+    background: #0094EF;
+}
+
+.box .bottom {
+    color: #CECECE !important;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.hide1 {
+    width: 282px;
+    z-index: 200;
+    border-top: 1px solid #F0F0F0;
+    background: white;
+    position: absolute;
+    left: 23px;
+    top: 145px;
+}
+
+.hide1 li {
+    cursor: pointer;
+}
+
+.hide1 li:hover {
+    background: deepskyblue;
+}
+
+.hide2 {
+    width: 282px;
+    z-index: 200;
+    border-top: 1px solid #F0F0F0;
+    background: white;
+    position: absolute;
+    left: 23px;
+    top: 220px;
+}
+
+.hide2 li {
+    cursor: pointer;
+}
+
+.hide2 li:hover {
+    background: deepskyblue;
+}
+
+/*# sourceMappingURL=index.css.map */
